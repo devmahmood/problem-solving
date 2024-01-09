@@ -18,7 +18,7 @@ int main()
  
     if (uppercount > lowercount)
     {
-        for (int i = 0; i < s.length(); i++)
+        for (int (unsigned)i = 0; i < s.length(); i++)
             putchar(toupper(s[i]));
     }
     else
